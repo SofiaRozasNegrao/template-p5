@@ -10,20 +10,8 @@ function draw()
   background("yellow");
 
 if(keyDown("RIGHT_ARROW")){
-caixa.x=caixa.x+5;
+background("red");
 }
-if(keyDown("LEFT_ARROW")){
-  caixa.x=caixa.x-5;
-  }
-if(keyDown("UP_ARROW")){
-    caixa.y=caixa.y-5;
-    }
-if(keyDown("DOWN_ARROW")){
-      caixa.y=caixa.y+5;
-      }
   drawSprites();
 }
-
-
-
 
